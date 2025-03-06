@@ -1,6 +1,6 @@
 import random
 
-def get_numbers_ticket(min: int, max: int, quantity: int):
+def get_numbers_ticket(min: int, max: int, quantity: int) -> list:
     if not isinstance(min, int) and not isinstance(max, int) and not isinstance(quantity, int): 
         raise TypeError('The values "min, max, quantity" must be a int.')
     
